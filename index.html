@@ -3,9 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Pertama</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>HALLO DUNIAAAA!!!!</h1>
+    <!-- Judul Atas -->
+    <div class="top">
+        <h1>Pengenalan HTML</h1>
+    </div>
+
+    <!-- Konten bawah -->
+    <div class="middle">
+        <!-- Sidebar link -->
+        <div class="side-left">
+            <ul>
+                <li>Pengertian HTML</li>
+                <li>Web Browser dan Editor HTML</li>
+                <li>Tag, Elemen, dan Atribut</li>
+                <li>Struktur Dasar HTML</li>
+                <li>Macam - macam Tag HTML
+                    <ul>
+                    <li>Heading</li>
+                    <li>Paragraf</li>
+                    <li>Tabel</li
+                    <li>Form</li>
+                    <li>Link dan Gambar</li>
+                    </ul>
+                </li>
+                </ul>
+        </div>
+
+        <!-- Rangkuman kodingan -->
+        <div class="main">
+            <div class="main-box">
+                <p>Di bawah ini adalah contoh implementasi kodingan Tag HTML.</p>
+        
+                <h1>ini adalah judul dengan h1 </h1>
+                <h2>ini adalah judul dengan h2 </h2>
+                <h3>ini adalah judul dengan h3 </h3>
+                <h4>ini adalah judul dengan h4 </h4>
+                <h5>ini adalah judul dengan h5 </h5>
+                <h6>ini adalah judul dengan h6 </h6>
+                <br>
+                <p>ini adalah paragraf pertama</p>
+                <p>ini adalah paragraf kedua</p>
+                <br>
+                ini adalah paragraf pertama<br />
+                ini adalah paragraf kedua
+                <br>
+                <p>ini adalah kalimat <em>pertama</em>,
+                sedangkan ini adalah kalimat <strong>kedua</strong></p>
+                <br>
+                <h1>daftar belanjaan</h1>
+                <ol>
+                    <li>minyak goreng</li>
+                    <li>sabun mandi</li>
+                    <li>deterjen</li>
+                    <li>shampoo</li>
+                    <li>obat nyamuk</li>
+                </ol>
+                <br>
+                <h1>daftar belanjaan</h1>
+                <ul>
+                    <li>minyak goreng</li>
+                    <li>sabun mandi</li>
+                    <li>deterjen</li>
+                    <li>shampoo</li>
+                    <li>obat nyamuk</li>
+                </ul>
+                <br>
+                <h1>Belajar Tag Link</h1>
+                <p>Saya sedang belajar HTML dari
+                <a href="https://unipdu.ac.id">Unipdu</a></p>
+                <br>
+                <h1>Belajar Tag Gambar</h1>
+                <img src="img/pemandangan-pegunungan-dengan-kabut_1150-18328.jpg" style="width: 400px; height:auto;" />
+                <br>
+                 <h1>Belajar Tag Gambar</h1>
+                <img alt="Gambar Koala" src="img/pemandangan-pegunungan-dengan-kabut_1150-18328.jpg" height="400" />
+                <br>
+                 <h1>Belajar Tag Tabel</h1>
+                <table border="1">
+                    <tr>
+                        <td>Baris 1, Kolom 1</td>
+                        <td>Baris 1, Kolom 2</td>
+                        <td>Baris 1, Kolom 3</td>
+                    </tr>
+                    <tr>
+                        <td>Baris 2, Kolom 1</td>
+                        <td>Baris 2, Kolom 2</td>
+                        <td>Baris 2, Kolom 3</td>
+                    </tr>
+                </table>
+                <br>
+                <form action="Formulirku.html" method="get">
+                    Nama:<input type="text" name="nama" value="Nama Kamu" />
+                    <br />
+                    Password:<input type="password" name="password" />
+                    <br />
+                    Jenis Kelamin:
+                    Laki - Laki<input type="radio" name="jenis_kelamin" value="Laki Laki" checked />
+                    Perempuan<input type="radio" name="jenis_kelamin" value="Perempuan" />
+                    <br />
+                    Hobi:
+                    <input type="checkbox" name="hobi_baca" /> Membaca Buku
+                    <input type="checkbox" name="hobi_nulis" checked /> Menulis
+                    <input type="checkbox" name="hobi_mancing" /> Memancing
+                    <br />
+                    Asal Kota:
+                    <select name="asal_kota">
+                        <option value="Kota Jakarta">Jakarta</option>
+                        <option value="Kota Bandung">Bandung</option>
+                        <option value="Kota Semarang" selected>Semarang</option>
+                    </select>
+                    <br />
+                    Komentar Anda:
+                    <textarea name="komentar" rows="3" cols="20">Silahkan katakan isi hati anda</textarea>
+                    <br />
+                    <input type="submit" value="Mulai Proses" />
+                </form>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!-- Area Footer -->
+    <div class="bottom">
+        <p>Footer, akhir website ini.</p>
+    </div>
 </body>
 </html>
